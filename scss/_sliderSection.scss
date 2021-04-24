@@ -1,0 +1,13 @@
+#sliderSection {
+    margin: 30px auto 30px auto;
+    height: 500px;
+    width: 100%;
+    background-image: url("../img/wave-pattern\ 1.svg");
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    .carousel-inner > .item {
+        height: 400px;
+     }
+}

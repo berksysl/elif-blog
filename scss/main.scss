@@ -1,0 +1,16 @@
+@import "./fonts";
+@import "./topbar";
+@import "./logoSection";
+@import "./sliderSection";
+
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.wrapper {
+    width: 90%;
+    margin-right: auto;
+    margin-left: auto;
+}
