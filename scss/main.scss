@@ -2,11 +2,15 @@
 @import "./topbar";
 @import "./logoSection";
 @import "./sliderSection";
+@import "./topPosts";
+@import "./blogSection";
+@import "./instagram";
 
 body {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    color: #000000 !important;
 }
 
 .wrapper {

@@ -67,11 +67,133 @@
   height: 400px;
 }
 
+#topPosts {
+  position: relative;
+  top: 50px;
+}
+
+#topPosts #postCaptions {
+  text-align: center;
+  font-size: 18px;
+  font-family: 'Cormorant Garamond', serif;
+}
+
+#topPosts #postCaptions .captionLine1 {
+  position: absolute;
+  width: 40px;
+  height: 1px;
+  background-color: black;
+  left: 30px;
+  top: 10px;
+}
+
+#topPosts #postCaptions .captionLine2 {
+  position: absolute;
+  width: 40px;
+  height: 1px;
+  background-color: black;
+  right: 30px;
+  top: 10px;
+}
+
+#topPosts #posts {
+  margin-top: 50px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+#topPosts #posts .post {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+#topPosts #posts .post img {
+  width: 50%;
+  text-align: center;
+}
+
+#topPosts #posts .post p {
+  width: 50%;
+  text-align: center;
+  font-family: 'Poppins', sans-serif;
+}
+
+#blogSection {
+  margin-top: 200px;
+  background-color: #F8F5F1;
+  padding: 35px;
+}
+
+#blogSection .pp {
+  text-align: center;
+}
+
+#blogSection h3 {
+  font-family: 'Cormorant Garamond', serif;
+  font-weight: bold;
+  margin-top: 32px;
+}
+
+#blogSection p {
+  margin-top: 27px;
+  font-family: 'Cormorant Garamond', serif;
+  font-weight: 400;
+}
+
+#blogSection #sign {
+  text-align: center;
+  font-size: 42px;
+  font-family: 'Dancing Script', cursive;
+}
+
+#instagram {
+  margin-top: 80px;
+}
+
+#instagram .captions {
+  text-align: center;
+  font-size: 18px;
+  font-family: "Cormorant Garamond", serif;
+  position: relative;
+}
+
+#instagram .captions .captionLine1 {
+  position: absolute;
+  width: 40px;
+  height: 1px;
+  background-color: black;
+  left: 30px;
+  top: 10px;
+}
+
+#instagram .captions .captionLine2 {
+  position: absolute;
+  width: 40px;
+  height: 1px;
+  background-color: black;
+  right: 30px;
+  top: 10px;
+}
+
+#instagram .ipost {
+  margin-top: 30px;
+}
+
 body {
   margin: 0;
   padding: 0;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
+  color: #000000 !important;
 }
 
 .wrapper {
