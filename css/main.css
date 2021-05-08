@@ -188,6 +188,99 @@
   margin-top: 30px;
 }
 
+.showMorebtn {
+  background-color: #777;
+  display: block;
+  width: 60%;
+  text-align: center;
+  margin: 30px auto;
+  color: #fff;
+  padding: 10px 20px;
+  border-radius: 20px;
+  text-decoration: none;
+  font-family: 'Cormorant Garamond', serif;
+  font-weight: 600;
+}
+
+#tiktok .captions {
+  text-align: center;
+  font-size: 18px;
+  font-family: "Cormorant Garamond", serif;
+  position: relative;
+}
+
+#tiktok .captions .captionLine1 {
+  position: absolute;
+  width: 40px;
+  height: 1px;
+  background-color: black;
+  left: 30px;
+  top: 10px;
+}
+
+#tiktok .captions .captionLine2 {
+  position: absolute;
+  width: 40px;
+  height: 1px;
+  background-color: black;
+  right: 30px;
+  top: 10px;
+}
+
+footer {
+  background-color: #777;
+  width: 100%;
+}
+
+footer .navlinks {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+footer .navlinks ul {
+  width: 80%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  padding: 0;
+  margin: 20px auto;
+}
+
+footer .navlinks ul li {
+  font-family: 'Cormorant Garamond', serif;
+  font-weight: 500;
+}
+
+footer .navlinks ul li a {
+  color: #000;
+}
+
+footer .socialLinks ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin: 0px;
+  padding: 0;
+  padding-bottom: 20px;
+}
+
+footer .socialLinks ul li {
+  padding: 10px 15px;
+}
+
+footer .socialLinks ul li a {
+  color: #000;
+}
+
 body {
   margin: 0;
   padding: 0;
@@ -200,5 +293,13 @@ body {
   width: 90%;
   margin-right: auto;
   margin-left: auto;
+}
+
+li {
+  list-style-type: none !important;
+}
+
+a {
+  text-decoration: none !important;
 }
 /*# sourceMappingURL=main.css.map */

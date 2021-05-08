@@ -1,0 +1,26 @@
+#tiktok {
+    .captions {
+        text-align: center;
+        font-size: 18px;
+        font-family: "Cormorant Garamond", serif;
+        position: relative;
+    
+        .captionLine1 {
+          position: absolute;
+          width: 40px;
+          height: 1px;
+          background-color: black;
+          left: 30px;
+          top: 10px;
+        }
+    
+        .captionLine2 {
+          position: absolute;
+          width: 40px;
+          height: 1px;
+          background-color: black;
+          right: 30px;
+          top: 10px;
+        }
+      }
+}

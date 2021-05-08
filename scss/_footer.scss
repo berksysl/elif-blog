@@ -1,0 +1,43 @@
+footer {
+    background-color: #777;
+    width: 100%;
+    
+    .navlinks {
+        display: flex;
+        justify-content: center;
+
+        ul {
+            width: 80%;
+            display: flex;
+            justify-content: space-around;
+            padding: 0;
+            margin: 20px auto;
+            li {
+                font-family: 'Cormorant Garamond', serif;
+                font-weight: 500;
+                a {
+                    color: #000;
+                }
+            }
+        }
+    }
+
+    .socialLinks {
+        
+        ul {
+            display: flex;
+            justify-content: center;
+            margin: 0px;
+            padding: 0;
+            padding-bottom: 20px;  
+
+            li {
+                padding: 10px 15px;
+                 
+                a {
+                    color: #000;
+                }
+            }
+        }
+    }
+}

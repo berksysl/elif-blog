@@ -5,6 +5,9 @@
 @import "./topPosts";
 @import "./blogSection";
 @import "./instagram";
+@import "./tiktok";
+@import "./footer";
+
 
 body {
     margin: 0;
@@ -17,4 +20,13 @@ body {
     width: 90%;
     margin-right: auto;
     margin-left: auto;
+}
+
+li {
+    list-style-type: none !important;
+}
+
+a {
+text-decoration: none !important;
+    
 }
